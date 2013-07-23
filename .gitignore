@@ -1,0 +1,16 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+.svn
+
+# Thumbnails
+._*
+
+# DIR ###
+classes/org/sgmnt/air/
+classes/org/sgmnt/lib/
+materials
+bin/
+
