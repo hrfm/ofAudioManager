@@ -73,7 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		268E040215C58F2E004A9376 /* ofAudioManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofAudioManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268E040215C58F2E004A9376 /* ofAudioManagerDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofAudioManagerDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268E047415C59080004A9376 /* AudioInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInputManager.h; sourceTree = "<group>"; };
 		268E047515C59080004A9376 /* AudioInputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInputManager.cpp; sourceTree = "<group>"; };
 		268E047715C59080004A9376 /* complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
@@ -337,7 +337,7 @@
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
-				268E040215C58F2E004A9376 /* ofAudioManager.app */,
+				268E040215C58F2E004A9376 /* ofAudioManagerDebug.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -382,7 +382,7 @@
 			);
 			name = ofAudioManager;
 			productName = myOFApp;
-			productReference = 268E040215C58F2E004A9376 /* ofAudioManager.app */;
+			productReference = 268E040215C58F2E004A9376 /* ofAudioManagerDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -640,7 +640,7 @@
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/ofxOsc/libs/oscpack/lib/osx\"";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = ofAudioManager;
+				PRODUCT_NAME = ofAudioManagerDebug;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
